@@ -1,190 +1,80 @@
-<!DOCTYPE html>
-<html lang="uk">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lux Car Parfum</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      font-family: 'Montserrat', sans-serif;
-      background: #f7f7f7;
-      color: #333;
-    }
-    /* решта стилів: header, nav, main, footer… */
-    main {
-      flex: 1;
-      padding: 3rem 1.5rem;
-      max-width: 900px;
-      margin: auto;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    }
-
-    header {
-      background: #111;
-      color: #fff;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-        nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #222;
-  padding: 1rem 2rem;
-  gap: 2rem;
-  flex-wrap: wrap;
-  position: relative;
-}
-
-.nav-links {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-}
-
-.cart-icon {
-  position: absolute;
-  right: 2rem;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.4rem;
-  transition: 0.2s;
-}
-
-    .cart-icon:hover {
-        opacity: 0.8;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: bold;
-    }
-    section {
-      padding: 3rem 1.5rem;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-    .product {
-      background: #fff;
-      border-radius: 12px;
-      padding: 1rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .product img {
-      max-width: 100%;
-      border-radius: 8px;
-    }
-    .product h3 {
-      margin: 0.5rem 0;
-    }
-    footer {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-
-    .cta {
-      background: #ffcf33;
-      color: #000;
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 1.4rem;
-      font-weight: bold;
-    }
-    .cta a {
-      display: inline-block;
-      background: #000;
-      color: #fff;
-      padding: 0.8rem 1.5rem;
-      margin-top: 1rem;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-  </style>
+<title>XWIN - пространство развития</title>
 </head>
 <body>
-
-  <header>
-    <h1>Lux Car Parfum</h1>
-    <p>Аксесуари та засоби для догляду за вашим авто</p>
-  </header>
-
-  <nav>
-  <div class="nav-links">
-    <a href="index.html">Головна</a>
-    <a href="catalog.html">Каталог</a>
-    <a href="about.html">Про нас</a>
-  </div>
-  <a href="cart.html" class="cart-icon" title="Кошик">🛒</a>
+<nav>
+  <ul>
+    <li><a href="#who">Кто мы?</a></li>
+    <li><a href="#courses">Курсы</a></li>
+    <li><a href="#register">Регистрация</a></li>
+  </ul>
 </nav>
 
+<section>
+<h1>Каждый может стать победителем</h1>
+<h2>Учебный центр и сообщество в Праге</h2>
+<p>XWIN — пространство развития, где выигрывают все. Наша миссия: помогать людям находить внутреннюю опору и достигать результатов...</p>
 
-  <section class="cta">
-    🚗 Насолода для твого авто кожного дня!<br />
-    <a href="https://www.instagram.com/lux_car_parfum/" target="_blank">Перейти в Instagram</a>
-  </section>
+<h3>Почему тренинг “Формула твоего успеха” изменит вашу жизнь?</h3>
+<ul>
+  <li>Управлять страхами и внутренними блоками</li>
+  <li>Восстанавливать энергию и жить в балансе</li>
+  <li>Заботиться о себе и чувствовать собственную ценность</li>
+  <li>Улучшить качество своей жизни</li>
+  <li>Выстраивать отношения с семьей и окружением</li>
+  <li>Достигать целей</li>
+</ul>
 
-  <section id="products">
-  <h2>Популярні товари</h2>
-  <div class="products">
-    <div class="product">
-      <img src="photo1.png" alt="Автохімія" />
-      <h3>Автохімія</h3>
-      <p>Чистота та блиск для вашого авто всередині і ззовні.</p>
-    </div>
-    <div class="product">
-      <img src="photo3.png" alt="Ароматизатори" />
-      <h3>Ароматизатори</h3>
-      <p>Різноманітні аромати для авто преміум-класу.</p>
-    </div>
-  </div>
+<section id="programs">
+<h3>Программы XWIN — Прага 2025/2026</h3>
+
+<h4>Базовый курс</h4>
+<p>Даты: 12, 13, 14 декабря 2025 и 15 декабря 2025 вечер</p>
+<p>Длительность: 3 дня + вечерний разбор</p>
+<p>Стоимость: 350€ / 300€</p>
+
+<h4>Команда</h4>
+<p>Даты: 8, 9, 10, 11 января + 14 января 2026 вечер</p>
+<p>Стоимость: 650€ / 600€</p>
+
+<h4>Лидерская программа</h4>
+<p>1 этап - 23, 24, 25 января 2025</p>
+<p>Стоимость: 1.000€ / 900€</p>
+
+<h4>Полная программа</h4>
+<p>Все три программы подряд, стоимость 1.700€</p>
 </section>
 
+<section id="schedule">
+<h3>Расписание Базовая программа тренинга «Формула твоего успеха»</h3>
+<p>День 1…</p>
+<p>День 2…</p>
+<p>День 3…</p>
+<p>День 4…</p>
+</section>
 
-  <section id="about">
-    <h2>Про нас</h2>
-    <p>
-      Lux Car Parfum — це український магазин, який спеціалізується на продажу якісних ароматизаторів, автохімії та аксесуарів.
-      Ми допомагаємо зробити кожну поїздку приємнішою завдяки деталям, які мають значення.
-    </p>
-  </section>
+<section id="locations">
+<h3>Где мы находимся?</h3>
+<p>Киев — 16, 17, 18 января</p>
+<p>Варшава — 5, 6, 7 декабря</p>
+<p>Дубай — 14, 15, 16 ноября</p>
+</section>
 
-  <section id="contact">
-    <h2>Контакти</h2>
-    <p>📱 Пишіть нам в Instagram: <a href="https://www.instagram.com/lux_car_parfum/" target="_blank">@lux_car_parfum</a></p>
-    <p>📦 Доставка по всій Україні Новою Поштою</p>
-  </section>
+<section id="sign-up">
+<h3>Оставь свои контактные данные</h3>
+<form>
+<input type="text" placeholder="Имя и фамилия" />
+<input type="text" placeholder="Телефон" />
+<input type="text" placeholder="Город" />
+<button type="submit">Отправить</button>
+</form>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Lux Car Parfum. Всі права захищені.</p>
-  </footer>
-
+<footer>
+<p>Контакты: Телефон: +420 722 930 132 | Email: info@xwinclub.com</p>
+<p>Соцсети: Telegram / Instagram / Facebook</p>
+<p>Copyright © 2025 XWin</p>
+</footer>
 </body>
 </html>
