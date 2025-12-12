@@ -658,7 +658,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-md-end pe-0 pe-md-5">
-                    <img src="img/logo-xwin.svg" alt="Xwin" class="logo-footer">
+                    <img src="img/logo-xwin.svg" alt="win2Change" class="logo-footer">
                 </div>                 
                  <div class="col-md-4">
                     <div class="mb-3">
