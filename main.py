@@ -615,7 +615,7 @@
                 <p>Залиш свої контактні дані – і наш координатор зв'яжеться з тобою. Розкаже докладніше про програму та формати, щоб вибрати те, що підійде саме тобі.</p>
                 <form id="formular">
                     <div class="mb-3">
-                        <label class="form-label">Имя и фамилия</label>
+                        <label class="form-label">Ім'я та прізвище</label>
                         <input type="text" class="form-control form-control-lg" name="name" required>
                         <div class="invalid-feedback">
                             Обов'язковий
