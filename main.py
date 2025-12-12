@@ -9,7 +9,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <meta name="apple-mobile-web-app-title" content="Xwin">
+    <meta name="apple-mobile-web-app-title" content="win2Change">
     <link rel="manifest" href="site.webmanifest">
     <meta name="theme-color" content="#0f254c">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles-min.css" rel="stylesheet">
     <meta name="twitter:card" content="summary">
-    <meta property="og:url" content="https://www.xwinclub.com/">
+    <meta property="og:url" content="https://win2change.github.io/shop//">
     <meta property="og:title" content="win2Change - простір розвитку, де виграють усі">
     <meta property="og:image" content="https://www.xwinclub.com/img/bg-intro.jpg">
     <meta property="og:description" content="Наша місія: допомагати людям знаходити внутрішню опору та досягати результатів. Ми навчаємо співпраці, в якій кожен отримує цінність. Ключовий метод: win-win, розвиває цілеспрямованість, командність, повагу та стійкий успіх.Ми створюємо середовище, в якому кожне рішення та дія веде до розвитку масштабу особистості та реальних результатів у житті.">
@@ -43,7 +43,7 @@
         <div class="container">
             <div class="d-flex align-items-start justify-content-between">
                 <a href="./">
-                    <img src="img/logo-xwin.svg" alt="XWin" class="logo">
+                    <img src="img/logo-xwin.svg" alt="win2Change" class="logo">
                 </a>
                 <a href="#" class="mobile-toggle">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M 4 7 L 4 9 L 28 9 L 28 7 Z M 4 15 L 4 17 L 28 17 L 28 15 Z M 4 23 L 4 25 L 28 25 L 28 23 Z"/></svg>
